@@ -1,0 +1,21 @@
+.cats {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 3vw;
+}
+
+.catCard {
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+}
+
+.catCard img {
+    height: 225px;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
